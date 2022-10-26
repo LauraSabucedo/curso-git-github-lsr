@@ -5,5 +5,6 @@ jobs:
   test_job:
     runs-on: ubuntu-latest
     steps:
+      - run: chmod +x other/execute-me.sh
       - run: sh other/execute-me.sh
       - run: python execute-me.py
