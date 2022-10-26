@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Execute bash script
-        run: bash other/execute-me.sh
+        run: bash ./other/execute-me.sh
       - name: Execute Python script
         run: python execute-me.py
